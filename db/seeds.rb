@@ -7,12 +7,12 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
-require faker
+require 'faker'
 
-10.times do
+20.times do
   Character.create(
-    name: Faker::Name.name,
-    location: Faker::Address.city,
-    house: [ 'Gryffindor', 'Slytherin', 'Hufflepuff', 'Ravenclaw' ].sample
+    name: Faker::Movies::HarryPotter.character,
+    location: Faker::Movies::HarryPotter.location,
+    house: Faker::Movies::HarryPotter.house
   )
 end
