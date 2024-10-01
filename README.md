@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Alumna Carola Pulgar Soto
+Modulo 5
+Desafío - Despliegue de una aplicación en internet utilizando Render
 
-Things you may want to cover:
+Requerimientos
+1. Crear la aplicación con el nombre howarts_rails. Esta debe iniciar su desarrollo
+con el motor de base de datos postgresql.
 
-* Ruby version
+2. Generar un modelo llamado Character que contenga los campos:
+a. name.
+b. location.
+c. house.
+Los datos serán cargados utilizando faker como gema y desde el archivo seed.rb.
 
-* System dependencies
+3. Generar un controlador pages que muestre en una vista index los personajes, la
+locación y la casa a la que pertenece el mago.
 
-* Configuration
+4. Establecer como ruta raíz de la aplicación la acción index.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+5. Subir la aplicación a render
